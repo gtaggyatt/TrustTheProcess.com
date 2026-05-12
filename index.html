@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TTP</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExMWFRUXGBgYFxgXFxcXGRkaFxoXFxgYFxgYHyggGBolGxcVITEhJSkrLy4uFx8zODUtNygtLisBCgoKDg0OGxAQGzAmICYtLS0vLS0tLS0tLS8vLS0tLS0tLy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAKgBLAMBIgACEQEDEQA...");
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    color:white;
+    overflow-x:hidden;
+}
+
+.overlay{
+    background:rgba(0,0,0,0.75);
+    min-height:100vh;
+    width:100%;
+}
+
+header{
+    padding:40px;
+    text-align:center;
+}
+
+.logo{
+    font-size:90px;
+    font-weight:bold;
+    color:#ffe600;
+    text-shadow:
+        0 0 10px #ffe600,
+        0 0 20px #ffe600,
+        0 0 40px #ffe600,
+        0 0 80px #ffe600;
+    letter-spacing:8px;
+}
+
+.subtitle{
+    margin-top:15px;
+    font-size:20px;
+    color:#ddd;
+    text-shadow:0 0 10px black;
+}
+
+.main{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    padding:50px 20px;
+}
+
+.card{
+    background:rgba(0,0,0,0.7);
+    border:2px solid #ffe600;
+    box-shadow:
+        0 0 20px #ffe600,
+        0 0 50px rgba(255,230,0,0.5);
+    border-radius:20px;
+    padding:40px;
+    width:90%;
+    max-width:850px;
+    text-align:center;
+    backdrop-filter:blur(5px);
+}
+
+.card h1{
+    font-size:50px;
+    color:#ffe600;
+    margin-bottom:20px;
+    text-shadow:0 0 20px #ffe600;
+}
+
+.card p{
+    font-size:18px;
+    line-height:1.8;
+    color:#f5f5f5;
+}
+
+.highlight{
+    color:#ffe600;
+    font-weight:bold;
+}
+
+.features{
+    margin-top:40px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.feature{
+    background:rgba(255,255,255,0.05);
+    border:1px solid rgba(255,230,0,0.4);
+    padding:25px;
+    border-radius:15px;
+    transition:0.3s;
+}
+
+.feature:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 20px #ffe600;
+}
+
+.feature h3{
+    color:#ffe600;
+    margin-bottom:10px;
+}
+
+.discord-btn{
+    margin-top:40px;
+    display:inline-block;
+    padding:18px 40px;
+    background:#ffe600;
+    color:black;
+    text-decoration:none;
+    font-size:22px;
+    font-weight:bold;
+    border-radius:12px;
+    transition:0.3s;
+    box-shadow:0 0 20px #ffe600;
+}
+
+.discord-btn:hover{
+    background:white;
+    transform:scale(1.05);
+    box-shadow:0 0 35px #ffe600;
+}
+
+.footer{
+    text-align:center;
+    padding:40px;
+    color:#999;
+    font-size:14px;
+}
+
+.neon-line{
+    width:80%;
+    height:2px;
+    background:#ffe600;
+    margin:40px auto;
+    box-shadow:0 0 15px #ffe600;
+}
+
+.ts{
+    margin-top:30px;
+    font-size:60px;
+    color:#ffe600;
+    text-shadow:
+        0 0 10px #ffe600,
+        0 0 20px #ffe600,
+        0 0 40px #ffe600;
+    font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+
+<div class="overlay">
+
+<header>
+    <div class="logo">TTP</div>
+    <div class="subtitle">
+        Roblox Community 
+    </div>
+</header>
+
+<div class="main">
+
+    <div class="card">
+
+        <h1>WELCOME TO TTP</h1>
+
+        <p>
+            <span class="highlight">TTP</span> TTP
+Created On 05/11/26
+TTP is a gang that plays Street Life Remastered and was created by a small group with one goal to build loyalty and take over the streets
+We jack yellow and stand for loyalty discipline and respect
+We trust the process move smart and never fold
+Trust Tha Process
+
+        </p>
+
+        <div class="ts">TS</div>
+
+        <div class="neon-line"></div>
+
+        <div class="features">
+
+            <div class="feature">
+                <h3> Active Community</h3>
+                <p>Meet active Roblox players and community members every day.</p>
+            </div>
+
+            <div class="feature">
+                <h3> Events</h3>
+                <p>Frequent Roblox events, group activities, and competitions.</p>
+            </div>
+
+            <div class="feature">
+                <h3> Strong Reputation</h3>
+                <p>TTP members are known for loyalty, teamwork, and activity.</p>
+            </div>
+
+            <div class="feature">
+                <h3> Fast Growing</h3>
+                <p>The server keeps growing with new members joining daily.</p>
+            </div>
+
+        </div>
+
+        <a class="discord-btn" href="https://discord.gg/86fygTQHFS" target="_blank">
+            TTP
+        </a>
+
+    </div>
+
+</div>
+
+<div class="footer">
+    © 2026 TTP 
+</div>
+
+</div>
+
+</body>
+</html>
